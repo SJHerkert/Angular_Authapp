@@ -1,4 +1,4 @@
-# Blog Application
+# AuthApp Application
 This Authapp application is based on book by Victor Garcia - Getting Started with Angular - Published by Apress.
 
 This repository contains the use of AuthO application built with Angular.
