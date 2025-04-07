@@ -1,59 +1,31 @@
-# Authapp
+# Blog Application
+This Authapp application is based on book by Victor Garcia - Getting Started with Angular - Published by Apress.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+This repository contains the use of AuthO application built with Angular.
 
-## Development server
+# Additional Notes
+This repository includes my Obsidian files, which document my learning journey with the book Getting Started with Angular by Victor Garcia. These notes try to cover essential topics such as required installations, addons, tutorial challenges, and resolutions. I’ve structured the notes by chapters and parts for easy navigation.
 
-To start a local development server, run:
+As this repository is intended for learning purposes, the Obsidian notes are an integral part of understanding the project's purpose. They offer additional context and insights that describe the learning experience to the repository viewer.
 
-```bash
-ng serve
-```
+# App Parts- 
+- Angular (with CLI)
+- Auth0 (SDK)
+- Local Storage(development purpose)
+- AuthGuard
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+# Features
+User authentication using Auth0. Saving user session data using local storage. Securing routes, using authguard.
 
-## Code scaffolding
+# Purpose
+This repository is a learning resource aimed at exploring the integration of Angular, Auth0, and authorization operations. It is not intended to be a ready-to-run application.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+It has not been finalized in terms of UI design or removal of unused parts. It serves as a foundation for understanding previosly mentioned topics, and therefore provides only a base for further development.
 
-```bash
-ng generate component component-name
-```
+# Notes
+To use this application, you would need to set up a Auth0 account and configure it.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+# Attribution
+This project is based on the tutorial and materials from the book: Getting Started with Angular by Victor Garcia, published by Apress.
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+All intellectual rights to the concepts, code, and tutorial content belong to the author and publisher. This repository is solely for educational purposes and reflects my learning journey using the book as a guide.
